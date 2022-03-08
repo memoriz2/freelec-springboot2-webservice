@@ -3,11 +3,11 @@ jdk:
   - openjdk8
 branches:
   only:
-    - main
+    - master
 
 # Travis CI Server's Home
 cache:
-  - directories:
+  directories:
       - '$HOME/.m2/repository'
       - '$HOME/.gradle'
 
